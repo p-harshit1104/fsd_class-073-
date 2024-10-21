@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb Toggle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   
+    <div class="container" id="startContainer">
+        <button onclick="startProject()">Start</button>
+    </div>
+
+    <div class="input-container" id="inputContainer">
+        <label for="numBulbs">Enter number of bulbs:</label>
+        <input type="number" id="numBulbs" min="1" placeholder="Enter a number">
+        <button onclick="generateBulbs()">Generate Bulbs</button>
+    </div>
+
+    
+    <div class="bulb-container" id="bulbContainer"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
