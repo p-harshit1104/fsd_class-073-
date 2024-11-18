@@ -14,11 +14,11 @@ function App() {
       <div style={{ backgroundColor: "cyan" }}>
         <Student
           college="ABES Engineering College"
-          name="Nitin Keshari"
-          roll="2200320100111"
+          name="Harshit Pandey"
+          roll="2200320100073"
           branch="CSE"
           section="A"
-          admission="2022b0101174"
+          admission="2022b0101029"
         />
       </div>
     </div>
